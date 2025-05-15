@@ -106,7 +106,7 @@ public class CameraModel {
         setMake(make);
     }
 
-/*    public ArrayList<String> getAllCompanies(){
+/*   public ArrayList<String> getAllCompanies(){
 //        Companies.values();
 //        List.of(Companies.values());
 //        return Arrays.asList(Companies.values());
