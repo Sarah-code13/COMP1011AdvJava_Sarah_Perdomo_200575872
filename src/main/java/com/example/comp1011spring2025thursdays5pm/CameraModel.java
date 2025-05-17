@@ -105,7 +105,10 @@ public class CameraModel {
         setModel(model);
         setMake(make);
     }
-
+    @Override
+    public String toString() {
+        return model + " (" + make + ")";
+    }
 /*    public ArrayList<String> getAllCompanies(){
 //        Companies.values();
 //        List.of(Companies.values());
