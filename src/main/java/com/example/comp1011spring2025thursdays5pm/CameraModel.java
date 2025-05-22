@@ -107,11 +107,7 @@ public class CameraModel {
     }
     @Override
     public String toString() {
-        return model + " (" + make + ")";
+        return String.format("%s %s %s", color, make, model);
     }
-/*    public ArrayList<String> getAllCompanies(){
-//        Companies.values();
-//        List.of(Companies.values());
-//        return Arrays.asList(Companies.values());
-  }*/
+
 }
