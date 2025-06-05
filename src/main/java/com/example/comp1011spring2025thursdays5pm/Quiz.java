@@ -45,6 +45,7 @@ public class Quiz {
         q3.setCorrectAnswer(2);
 
         return new Quiz(q1, q2, q3);
+
     }
 
 }
