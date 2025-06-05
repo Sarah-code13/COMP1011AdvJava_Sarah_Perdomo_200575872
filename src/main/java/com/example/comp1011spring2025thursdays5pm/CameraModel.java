@@ -109,5 +109,12 @@ public class CameraModel {
     public String toString() {
         return String.format("%s %s %s", color, make, model);
     }
-
+    public static List<CameraModel> populateCameraList(){
+        List<CameraModel> list = new ArrayList<>();
+        //String lens, String color, double iso, int resolution, String model, Companies make
+        list.add(new CameraModel("lens", "black", 100, 1080, "Model", CameraModel.Companies.NIKON));
+        list.add(new CameraModel("cool", "red", 200, 2080, "Horse", CameraModel.Companies.CANON));
+        list.add(new CameraModel("beans", "black", 100, 3080, "Buggy", CameraModel.Companies.FUJIFILM));
+        return list;
+    }
 }
