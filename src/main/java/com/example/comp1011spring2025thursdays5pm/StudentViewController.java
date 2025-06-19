@@ -111,7 +111,7 @@ public class StudentViewController  {
         Set<String> areaCodes = new HashSet<>();
 
         for (Student student : students) {
-            string phone = student.getStudentPhoneNumber();
+            int phone = student.getStudentPhoneNumber();
             if (phone != null && phone.length() >= 3) {
                 String areaCode = phone.subtring(0, 3);
                 areaCodes.add(areaCode);

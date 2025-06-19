@@ -6,7 +6,7 @@ public class Student {
     public String StudentPhoneNumber;
     public String StudentAddress;
 
-    public Student(int studentNum, String firstName, String lastName, string telephone, String address, String province, int avgGrade, String major) {
+    public Student(int studentNum, String firstName, String lastName, int telephone, String address, String province, int avgGrade, String major) {
     this.StudentNumber = studentNum;
     this.StudentFirstName = firstName;
     this.StudentLastName = lastName;
